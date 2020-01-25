@@ -1,7 +1,7 @@
 {
-	"name" : "MUZOORA BARNABAS` CV",
+	"name" : "MUZOORA BARNABAS' CV",
 	"short_name" : "MB CV",
-	"description" : "MUZOORA BARNABAS` Curriculum Vitae aka CV",
+	"description" : "MUZOORA BARNABAS' Curriculum Vitae aka CV",
 	"start_url" : "index.html",
 	"scope" : ".",
 	"display" : "standalone",
