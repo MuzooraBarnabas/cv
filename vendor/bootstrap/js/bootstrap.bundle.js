@@ -4129,7 +4129,7 @@
     DATA_TOGGLE: '[data-toggle="dropdown"]',
     FORM_CHILD: '.dropdown form',
     MENU: '.dropdown-menu',
-    NAVBAR_NAV: '.navbar-nav',
+    navbar1_NAV: '.navbar1-nav',
     VISIBLE_ITEMS: '.dropdown-menu .dropdown-item:not(.disabled):not(:disabled)'
   };
   var AttachmentMap = {
@@ -4171,7 +4171,7 @@
       this._popper = null;
       this._config = this._getConfig(config);
       this._menu = this._getMenuElement();
-      this._inNavbar = this._detectNavbar();
+      this._innavbar1 = this._detectnavbar1();
 
       this._addEventListeners();
     } // Getters
@@ -4203,10 +4203,10 @@
 
       if (showEvent.isDefaultPrevented()) {
         return;
-      } // Disable totally Popper.js for Dropdown in Navbar
+      } // Disable totally Popper.js for Dropdown in navbar1
 
 
-      if (!this._inNavbar) {
+      if (!this._innavbar1) {
         /**
          * Check for Popper dependency
          * Popper - https://popper.js.org
@@ -4241,7 +4241,7 @@
       // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
 
 
-      if ('ontouchstart' in document.documentElement && $(parent).closest(Selector$4.NAVBAR_NAV).length === 0) {
+      if ('ontouchstart' in document.documentElement && $(parent).closest(Selector$4.navbar1_NAV).length === 0) {
         $(document.body).children().on('mouseover', null, $.noop);
       }
 
@@ -4311,7 +4311,7 @@
     };
 
     _proto.update = function update() {
-      this._inNavbar = this._detectNavbar();
+      this._innavbar1 = this._detectnavbar1();
 
       if (this._popper !== null) {
         this._popper.scheduleUpdate();
@@ -4369,8 +4369,8 @@
       return placement;
     };
 
-    _proto._detectNavbar = function _detectNavbar() {
-      return $(this._element).closest('.navbar').length > 0;
+    _proto._detectnavbar1 = function _detectnavbar1() {
+      return $(this._element).closest('.navbar1').length > 0;
     };
 
     _proto._getOffset = function _getOffset() {

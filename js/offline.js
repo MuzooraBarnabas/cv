@@ -2,6 +2,7 @@
   'use strict';
 
   var navbar = document.querySelector('.navbar');
+  var wifibar = document.getElementById('hidden');
 
   //After DOM Loaded
   document.addEventListener('DOMContentLoaded', function(event) {
@@ -17,12 +18,12 @@
   //To update network status
   function updateNetworkStatus() {
     if (navigator.onLine) {
-      toastr.success('Hi, You`re currently viewing my Updated CV');
+      wifibar.className = "hidden";
       navbar.classList.remove('offline');
       navbar.classList.add('bg-color');
     }
     else {
-      toastr.error('Hi! You`recurrently offline!');
+      wifibar.className = "";
       navbar.classList.remove('bg-color');
       navbar.classList.add('offline');
       

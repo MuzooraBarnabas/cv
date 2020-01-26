@@ -18,25 +18,23 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.12.0.min.css"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/mdb-plugins-gathered.min.css"><style></style>
-
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#117a98">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="MB CV">
-    <meta name="application-name" content="MB CV">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="img/browserconfig.xml">
-    <meta name="theme-color" content="#075e54">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#117a98">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="MB CV">
+  <meta name="application-name" content="MB CV">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="img/browserconfig.xml">
+  <meta name="theme-color" content="#075e54">
 
-    <style>
+  <style>
       .bgcolor, #mailto {
         color: #075e54 !important;
       }
@@ -46,7 +44,29 @@
       .offline{
         background-color: #128C7E;
       }
-    </style>
+
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#075e54;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.hidden{
+  display: none;
+}
+
+.my-float{
+  margin-top:22px;
+}
+  </style>
 
 </head>
 
@@ -88,6 +108,11 @@
 
   <div class="container-fluid p-0">
 
+<!-- Code begins here -->
+<span id="hidden" class="hidden">
+  <a href="" onclick="location.reload();"class="float"><img src="img/wifi-off.PNG" style="width: 75%; height: 75%; margin-top: 5px;"></a>
+</span>
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">MUZOORA
@@ -113,6 +138,8 @@
         </div>
       </div>
     </section>
+
+
 
     <hr class="m-0">
 
@@ -305,8 +332,6 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled-4.12.0.min.js"></script><div class="hiddendiv common"></div><script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/plugins/mdb-plugins-gathered.min.js"></script><script type="text/javascript"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
