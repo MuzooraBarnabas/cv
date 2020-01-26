@@ -1,5 +1,5 @@
 {
-	"name" : "MUZOORA BARNABAS' CV",
+	"name" : "This is my updated version of my soft resume!",
 	"short_name" : "MB CV",
 	"description" : "MUZOORA BARNABAS' Curriculum Vitae aka CV",
 	"start_url" : "index.html",
@@ -8,7 +8,7 @@
 	"orientation" : "any",
 	"lang" : "English",
 	"background_color" : "#075e54",
-    "color" : "#075e54",
+    "color" : "#128C7E",
 	"icons": [
         {
             "src": "img/android-chrome-192x192.png",

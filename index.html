@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+<link rel="stylesheet" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.12.0.min.css"><link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/mdb-plugins-gathered.min.css"><style></style>
+
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
@@ -34,15 +36,27 @@
     <meta name="msapplication-config" content="img/browserconfig.xml">
     <meta name="theme-color" content="#075e54">
 
+    <style>
+      .bgcolor, #mailto {
+        color: #075e54 !important;
+      }
+      .bg-color{
+        background-color: #075e54 !important;
+      }
+      .offline{
+        background-color: #128C7E;
+      }
+    </style>
+
 </head>
 
-<body id="page-top">
+<body id="page-top" aria-busy="true">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark offline bg-color fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">My CV</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/fav.png" alt="Muzoora Barnabas">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" style="height: 105%;" src="img/fav.png" alt="Muzoora Barnabas">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,10 +91,10 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">MUZOORA
-          <span class="text-primary">BARNABAS</span>
+          <span class="text-primary bgcolor">BARNABAS</span>
         </h1>
-        <div class="subheading mb-5">+(256) 750941273 . 780317932 
-          <a href="mailto:bmuzoora@gmail.com"> . bmuzoora@gmail.com</a>
+        <div class="subheading mb-5"><a href="tel:+256750941273">+256 750941273</a> . <a href="tel:+256780317932">+256 780317932</a>  
+          <a id="mailto" href="mailto:bmuzoora@gmail.com"> . bmuzoora@gmail.com</a>
         </div>
         <p class="lead mb-5">I am a software programmer, currently designing software programs ranging from Android Applications to Web Applications. I believe in hard work and team work, I believe in transforming the world into a better place with the use of Technology. I am a believer in Christ and am self driven. <br><b><i>Quote: "</i>Hard work beats talent when talent fails to work hard</b><i>"</i></p>
         <div class="social-icons">
@@ -113,7 +127,7 @@
             <p>I design <b>Web Applications</b> for any kind of business and personal consumption. These range from static web apps to dynamic ones, those that offer offline access and those that require instant internet in different languages. <br>I provide personal or group maintenance to any of the apps i develope.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">January 2017 - Present</span>
+            <span class="text-primary bgcolor">January 2017 - Present</span>
           </div>
         </div>
 
@@ -124,7 +138,7 @@
             <p>I design Desktop applications basing on your own desire. These may range from static apps to dynamic ones.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">January 2018 - Present</span>
+            <span class="text-primary bgcolor">January 2018 - Present</span>
           </div>
         </div>
 
@@ -135,7 +149,7 @@
             <p>I also do aliitle bit of mobile app development, i design applications basing on the web apps i develope.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2018 - Present</span>
+            <span class="text-primary bgcolor">July 2018 - Present</span>
           </div>
         </div>
 
@@ -146,7 +160,7 @@
             <p>I teach how to acquire programming skills in the above fields, I provide personal skills or in groups. I have experience in this field and people love me for it.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">March 2017 - Present</span>
+            <span class="text-primary bgcolor">March 2017 - Present</span>
           </div>
         </div>
 
@@ -167,7 +181,7 @@
             <div>Am still studying this course at BSU.</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2017 - Present</span>
+            <span class="text-primary bgcolor">August 2017 - Present</span>
           </div>
         </div>
 
@@ -178,7 +192,7 @@
             <div>Finished In 2016</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">February 2015 - October 2016</span>
+            <span class="text-primary bgcolor">February 2015 - October 2016</span>
           </div>
         </div>
 
@@ -271,14 +285,14 @@
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            BMS :: <b><i><a target="_blank" href="https://bucosa.bsu.ac.ug">BUCOSA MANAGEMENT SYSTEM</a></i></b></li>
+            BMS :: <b><i><a id="mailto" target="_blank" href="https://bucosa.bsu.ac.ug">BUCOSA MANAGEMENT SYSTEM</a></i></b></li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            MY-CV :: <b><i><a href="https://muzoorabarnabas.github.io/cv/">MB CV PWA</a></i></b>
+            MY-CV :: <b><i><a id="mailto" href="https://muzoorabarnabas.github.io/cv/">MB CV PWA</a></i></b>
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            CGPA Desktop App :: <b><i><a  target="_blank" href="https://download1654.mediafire.com/f7vxy5ch0x0g/a1pz2m4ro7mr2jm/setup-MjB+GPA.exe">CGPA APP</a></b></i></li>
+            CGPA Desktop App :: <b><i><a  id="mailto" target="_blank" href="https://download1654.mediafire.com/f7vxy5ch0x0g/a1pz2m4ro7mr2jm/setup-MjB+GPA.exe">CGPA APP</a></b></i></li>
         </ul>
       </div>
     </section>
@@ -292,9 +306,13 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+<script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled-4.12.0.min.js"></script><div class="hiddendiv common"></div><script type="text/javascript" src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/plugins/mdb-plugins-gathered.min.js"></script><script type="text/javascript"></script>
+
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
   <script src="sw_register.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/offline.js"></script>
 
 </body>
 

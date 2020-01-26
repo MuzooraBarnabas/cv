@@ -163,6 +163,10 @@ section.resume-section .resume-item .resume-date {
   background-color: #BD5D38 !important;
 }
 
+.bg-mbcv {
+  background-color: #075e54 !important;
+}
+
 .text-primary {
   color: #BD5D38 !important;
 }
@@ -173,4 +177,11 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.toast__container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  pointer-events: none;
 }
