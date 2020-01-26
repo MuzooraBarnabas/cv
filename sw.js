@@ -7,7 +7,6 @@ const filesToCache = [
         'js/',
         'img/',
         'css/',
-        '/',
         'index.html',
         'manifest.json',
         'README.md',
