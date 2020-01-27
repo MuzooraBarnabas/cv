@@ -9,11 +9,19 @@ self.addEventListener('install', function(event) {
       .then(function(cache) {
         console.log('[Service Worker] Precaching App Shell');
         cache.addAll([
-          'css/',
-          'img/',
-          'js/',
-          'scss/',
-          'vendor/',
+          'css/resume.css',
+          'css/resume.min.css',
+
+          'img/fav.png',
+          'img/favicon.ico',
+          'js/offline.js',
+          'js/resume.js',
+          'js/resume.min.js',
+          'vendor/bootstrap/css/bootstrap.min.css',
+          'vendor/fontawesome-free/css/all.min.css',
+          'vendor/jquery-easing/jquery.easing.min.js',
+          'vendor/bootstrap/js/bootstrap.bundle.min.js',
+          'vendor/jquery/jquery.min.js',
           'offline.html'
         ]);
       })

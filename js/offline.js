@@ -26,6 +26,7 @@
       wifibar.className = "";
       navbar.classList.remove('bg-color');
       navbar.classList.add('offline');
+      location.reload();
       
     }
   }
