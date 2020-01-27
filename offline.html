@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="My CV/Resume Web App">
+  <meta name="description" content="MB CV/Resume Web App">
   <meta name="author" content="Muzoora Barnabas">
 
-  <title>Muzoora Barnabas</title>
+  <title>MB`s CV</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,45 +21,84 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#117a98">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="MB CV">
-    <meta name="application-name" content="MB CV">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="img/browserconfig.xml">
-    <meta name="theme-color" content="#075e54">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#117a98">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="MB CV">
+  <meta name="application-name" content="MB CV">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="img/browserconfig.xml">
+  <meta name="theme-color" content="#075e54">
+
+  <style>
+      .bgcolor, #mailto {
+        color: #075e54 !important;
+      }
+      .bg-color{
+        background-color: #075e54 !important;
+      }
+      .offline{
+        background-color: #128C7E;
+      }
+
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#075e54;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.hidden{
+  display: none;
+}
+
+.my-float{
+  margin-top:22px;
+}
+  </style>
 
 </head>
 
-<body id="page-top">
+<body id="page-top" aria-busy="true">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark offline bg-color fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Muzoora Barnabas</span>
+      <span class="d-block d-lg-none">My CV</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/fav.png" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/fav.png" alt="Muzoora Barnabas">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     </div>
   </nav>
 
   <div class="container-fluid p-0">
 
+<!-- Code begins here -->
+<span id="hidden" class="hidden">
+  <a href="" onclick="location.reload();"class="float"><img src="img/wifi-off.PNG" style="width: 75%; height: 75%; margin-top: 5px;"></a>
+</span>
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Connection
-          <span class="text-primary">Lost!</span>
+        <h1 class="mb-0">No
+          <span class="text-primary bgcolor">CONNECTION</span>
         </h1>
-        <h3 class="lead mb-5">Sorry, You`re currently offline. <button type="button" class="btn btn-sm btn-primary" style="border-radius: 10px; font-family: arial;" onclick="location.reload()">RETRY</button></h3>
+        <div class="subheading mb-5"><a href="tel:+256750941273">+256 750941273</a> . <a href="tel:+256780317932">+256 780317932</a>  
+          <a id="mailto" href="mailto:bmuzoora@gmail.com"> . bmuzoora@gmail.com</a>
+        </div>
+      
         <div class="social-icons">
           <a href="https://ug.linkedin.com/in/muzoora-barnabas-2a0531150" target="_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -76,7 +115,6 @@
         </div>
       </div>
     </section>
-
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -89,7 +127,6 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
   <script src="js/offline.js"></script>
-  
 
 </body>
 
