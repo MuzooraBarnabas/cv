@@ -15,7 +15,7 @@ var filesToCache = [
     'js/resume.min.js',
     'vendor/',
     'scss/',
-    'index/html',
+    'index.html',
     'manifest.json',
     'offline.html',
     'sw_register.js',
