@@ -1,17 +1,12 @@
 var cacheName = 'mycvCache';
 const filesToCache = [
         'offline.html',
-        'img/fav.png',
         'vendor/',
         'scss/',
         'js/',
         'img/',
-        '/',
         'css/',
         'index.html',
-        'manifest.json',
-        'README.md',
-        'sw_register.js'
         ];
 
 
