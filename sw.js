@@ -1,15 +1,25 @@
-var cacheName = 'mycvCache';
-const filesToCache = [
-        'offline.html',
-        'vendor/',
-        'scss/',
-        'js/',
-        'img/',
-        'css/',
-        'index.html',
-        ];
+var cacheName = 'pwa-mycv-v1';
 
-
+var filesToCache = [
+    '',
+    'css/resume.css',
+    'css/resume.min.css',
+    'img/fav.png',
+    'img/wifi-off.PNG',
+    'img/android-chrome-192x192.png',
+    'img/android-chrome-512x512.png',
+    'img/favicon-16x16.png',
+    'img/favicon-32x32.png',
+    'js/offline.js',
+    'js/resume.js',
+    'js/resume.min.js',
+    'vendor/',
+    'scss/',
+    'index/html',
+    'manifest.json',
+    'offline.html',
+    'sw_register.js',
+];
 
 // Install Service Worker
 self.addEventListener('install', function(event) {
