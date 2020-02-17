@@ -1,5 +1,5 @@
-var CACHE_STATIC_NAME = 'static-v1';
-var CACHE_DYNAMIC_NAME = 'dynamic-v1';
+var CACHE_STATIC_NAME = 'myCv-static-v2';
+var CACHE_DYNAMIC_NAME = 'myCv-dynamic-v1';
 
 
 self.addEventListener('install', function(event) {
@@ -11,7 +11,6 @@ self.addEventListener('install', function(event) {
         cache.addAll([
           'css/resume.css',
           'css/resume.min.css',
-
           'img/fav.png',
           'img/favicon.ico',
           'js/offline.js',
